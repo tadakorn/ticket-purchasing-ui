@@ -1,5 +1,5 @@
 <template>
-  <p>Sports</p>
+  <p class="p-2 h5">Sports</p>
   <div class="d-flex flex-column h-100 p-2 pb-1 text-white text-shadow-1 mt-3">
     <div class="row align-items-stretch g-4 py-2">
       <div

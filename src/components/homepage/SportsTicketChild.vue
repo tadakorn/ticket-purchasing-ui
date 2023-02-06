@@ -27,16 +27,8 @@ export default {
   },
   methods: {
     openModal() {
-      let ticket = {
-        img: this.data.img,
-        title: this.data.title,
-        detail: this.data.detail,
-        priceTicket: this.data.priceTicket,
-        seat: this.data.seat,
-        totalSeat: this.data.totalSeat,
-        priceTotalSeat: this.data.priceTotalSeat,
-      };
-      this.ticketStore.openModal(ticket);
+      this.ticketStore.seat = 1;
+      this.ticketStore.currentTicket = this.data;
     },
   },
 };

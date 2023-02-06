@@ -9,9 +9,9 @@ const router = createRouter({
       component: () => import("../views/HomeView.vue"),
     },
     {
-      path: "/chackout",
-      name: "chackout",
-      component: () => import("../views/ChackoutView.vue"),
+      path: "/checkout",
+      name: "checkout",
+      component: () => import("../views/CheckoutView.vue"),
     },
   ],
 });

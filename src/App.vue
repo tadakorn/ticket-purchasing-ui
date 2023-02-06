@@ -3,7 +3,7 @@
     <header>
       <NavBar />
     </header>
-    <main class="mt-4 flex-grow-1">
+    <main class="mb-4 flex-grow-1">
       <div class="container-fluid container-md">
         <RouterView />
       </div>
